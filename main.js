@@ -1,11 +1,4 @@
-/* ═══════════════════════════════════════════════════════
-   SHREE JI — ANAMORPHIC LANDING PAGE
-   GSAP Animations & Interactions
-   ═══════════════════════════════════════════════════════ */
-
-import gsap from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
-
+const { gsap, ScrollTrigger } = window;
 gsap.registerPlugin(ScrollTrigger);
 
 // ═══════════════════════════════════════
